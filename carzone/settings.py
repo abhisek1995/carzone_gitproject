@@ -76,16 +76,18 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME':'carzone_db',
-        'USER':'postgres'
-        'PASSWORD':'Abhisek@123'
-        'host':'localhost',
-    }
-}
 
+DATABASES={
+    'default':{
+       'ENGINE':'django.db.backends.postgresql',
+       'NAME':'carzone_db',
+       'USER':'postgres',
+       'PASSWORD':'12345',
+       'HOST':'localhost',
+    }
+
+
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
